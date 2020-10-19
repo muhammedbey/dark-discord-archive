@@ -11,9 +11,13 @@
 
 @import url(https://raw.githack.com/hellbound1337/dark-discord/master/src/source.css);
 
-.theme-dark,
 .theme-light,
+.theme-dark,
 :root {
+   --background-secondary: #000000;
+   --background-secondary-alt: #000000;
+   --background-tertiary: #000000;
+   --background-primary: #000000;
    --submenu-color: rgba(18, 63, 80, 0.85);
    --background-primary: #000000 !important;
    --background-secondary: #000000 !important;
@@ -46,4 +50,63 @@
    --toast-contents: var(--background-secondary) !important;
    --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
    --toast-border: var(--background-tertiary) !important;
+}
+element.style {
+}
+.theme-dark .headerNormal-T_seeN {
+    background-color: #000000;
+}
+.headerNormal-T_seeN {
+}
+.header-2BwW8b {
+    color: #fff;
+    line-height: 50px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.size16-14cGz5 {
+    font-size: 14px;
+}
+a, button, div, input, select, span, strong, textarea {
+    outline: 0;
+}
+element.style {
+}
+.container-2lgZY8 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.appMount-3lHmkl, body {
+    background-color: var(--background-tertiary);
+    text-rendering: optimizeLegibility;
+}
+.appMount-3lHmkl {
+    position: absolute;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.appMount-3lHmkl, body, html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: black;
 }
